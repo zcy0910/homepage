@@ -21,7 +21,7 @@ if (i<10)
   return i
 }
 </script>
-</head>
+
 
 <body onload="startTime()">
 <div id="txt"></div>
