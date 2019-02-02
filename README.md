@@ -30,3 +30,4 @@ if (i<10)
 <font color="brown">实用网站:</font>
 <p><a href="https://www.jiumodiary.com">鸠摩搜书</a></p>
 <p><a href="http://m.panduoduo.net">盘多多</a></p>
+<p><a href="https://github.com/Dictionaryphile/All_Dictionaries/blob/master/README.md">宇宙最全在线词典网站导航</a></p>
