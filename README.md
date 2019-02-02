@@ -1,5 +1,30 @@
 # homepage
-<font color="red"><h2>加油吧！的小站</h2></font>
+<h2>加油吧！的小站</h2>
+<script type="text/javascript">
+function startTime()
+{
+var today=new Date()
+var h=today.getHours()
+var m=today.getMinutes()
+var s=today.getSeconds()
+// add a zero in front of numbers<10
+m=checkTime(m)
+s=checkTime(s)
+document.getElementById('txt').innerHTML=h+":"+m+":"+s
+t=setTimeout('startTime()',500)
+}
+
+function checkTime(i)
+{
+if (i<10) 
+  {i="0" + i}
+  return i
+}
+</script>
+</head>
+
+<body onload="startTime()">
+<div id="txt"></div>
 <img src="https://thirdqq.qlogo.cn/g?b=sdk&k=91mghJRwGdmfCPG8ChRicGw&s=100&t=1483302994"/>
 <hr/>
 <font color="brown">实用网站:</font>
